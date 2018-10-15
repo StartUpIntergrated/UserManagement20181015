@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.intergrate",
+      "nativeLanguage": "vi"
+    },
+    "jhipsterVersion": "5.4.2",
+    "applicationType": "uaa",
+    "baseName": "IntegratedUserManagement",
+    "packageName": "com.mycompany.intergrate",
+    "packageFolder": "com/mycompany/intergrate",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "languages": [
+      "vi",
+      "en"
+    ],
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "nativeLanguage": "vi",
+    "skipClient": true
+  }
+}
