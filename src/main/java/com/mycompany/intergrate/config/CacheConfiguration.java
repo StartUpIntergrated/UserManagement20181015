@@ -113,4 +113,10 @@ public class CacheConfiguration {
         mapConfig.setTimeToLiveSeconds(jHipsterProperties.getCache().getHazelcast().getTimeToLiveSeconds());
         return mapConfig;
     }
+    
+    
+    
+    
+    
+    
 }
